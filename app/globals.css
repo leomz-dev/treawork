@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand Colors */
+    --primary: #2B50AA;
+    --secondary-blue: #1F3C88;
+    --accent: #F5C451;
+
+    /* Neutral / Theme Colors */
+    --dark: #0A0F1C;
+    /* Rich Navy Black */
+    --light: #FAFAFA;
+    /* Bright clean white */
+
+    /* Shadcn/Tailwind Mappings */
+    --background: #FAFAFA;
+    --foreground: #0A0F1C;
+
+    --card: #FFFFFF;
+    --card-foreground: #0A0F1C;
+
+    --popover: #FFFFFF;
+    --popover-foreground: #0A0F1C;
+
+    --secondary: #F4F4F5;
+    --secondary-foreground: #18181B;
+
+    --muted: #F4F4F5;
+    --muted-foreground: #71717A;
+
+    --accent-foreground: #18181B;
+
+    --destructive: #E11D48;
+    --destructive-foreground: #FFFFFF;
+
+    --border: #E4E4E7;
+    --input: #E4E4E7;
+    --ring: #2B50AA;
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-light text-dark;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  button {
+    @apply font-montserrat;
+  }
+
+  p,
+  span,
+  li,
+  a {
+    @apply font-inter;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
