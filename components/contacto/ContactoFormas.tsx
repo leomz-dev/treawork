@@ -16,7 +16,7 @@ export default function ContactoFormas() {
   });
 
   const handleWhatsAppClick = () => {
-    const whatsappNumber = '573000000000';
+    const whatsappNumber = '573006426130';
     const message = 'Hola, quiero recibir más información sobre TreaWork';
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
@@ -30,7 +30,7 @@ Teléfono: ${formData.telefono}
 Servicio: ${formData.servicio}
 Mensaje: ${formData.mensaje}`;
 
-    const whatsappNumber = '573000000000';
+    const whatsappNumber = '573006426130';
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
@@ -63,7 +63,7 @@ Mensaje: ${formData.mensaje}`;
                 <h3 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">Teléfono</h3>
                 <div className="flex items-center gap-3 text-dark font-medium">
                   <Phone className="w-5 h-5 text-primary" />
-                  <span>+57 300 000 0000</span>
+                  <span>+57 300 642 3061</span>
                 </div>
               </div>
 
@@ -72,7 +72,7 @@ Mensaje: ${formData.mensaje}`;
                 <h3 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">Ubicación</h3>
                 <div className="flex items-start gap-3 text-dark font-medium">
                   <MapPin className="w-5 h-5 text-primary shrink-0 mt-1" />
-                  <span>Medellín, Colombia<br />Disponible Globalmente</span>
+                  <span>Barranquilla, Colombia<br />Disponible Globalmente</span>
                 </div>
               </div>
 

@@ -23,7 +23,7 @@ export default function WhatIsTreaWork() {
                   src="/images/about-illustration.png"
                   alt="Crecimiento profesional y académico"
                   fill
-                  className="object-cover"
+                  className="object-cover "
                 />
               </div>
               {/* Stats Badge */}
