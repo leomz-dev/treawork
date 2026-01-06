@@ -25,7 +25,10 @@ export const metadata: Metadata = {
     description: 'Soluciones reales para estudiar, trabajar y avanzar.',
     images: [
       {
-        url: 'https://bolt.new/static/og_default.png',
+        url: '/logos/imagotipo_horizontal.png',
+        width: 1200,
+        height: 630,
+        alt: 'TreaWork',
       },
     ],
   },
@@ -35,7 +38,10 @@ export const metadata: Metadata = {
     description: 'Soluciones reales para estudiar, trabajar y avanzar.',
     images: [
       {
-        url: 'https://bolt.new/static/og_default.png',
+        url: '/logos/imagotipo_horizontal.png',
+        width: 1200,
+        height: 630,
+        alt: 'TreaWork',
       },
     ],
   },
