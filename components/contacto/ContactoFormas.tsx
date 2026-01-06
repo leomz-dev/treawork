@@ -16,7 +16,7 @@ export default function ContactoFormas() {
   });
 
   const handleWhatsAppClick = () => {
-    const whatsappNumber = '573006426130';
+    const whatsappNumber = '573006423061';
     const message = 'Hola, quiero recibir más información sobre TreaWork';
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
@@ -30,7 +30,7 @@ Teléfono: ${formData.telefono}
 Servicio: ${formData.servicio}
 Mensaje: ${formData.mensaje}`;
 
-    const whatsappNumber = '573006426130';
+    const whatsappNumber = '573006423061';
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
