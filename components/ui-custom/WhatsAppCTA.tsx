@@ -3,7 +3,7 @@
 import { MessageCircle } from 'lucide-react';
 
 export default function WhatsAppCTA() {
-  const whatsappNumber = '573000000000';
+  const whatsappNumber = '573006423061';
   const message = 'Hola, me gustaría recibir más información sobre TreaWork';
 
   const handleWhatsAppClick = () => {
