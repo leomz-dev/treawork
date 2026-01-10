@@ -4,7 +4,7 @@ import { MessageCircle } from 'lucide-react';
 
 export default function WhatsAppCTA() {
   const whatsappNumber = '573006423061';
-  const message = 'Hola, me gustaría recibir más información sobre TreaWork';
+  const message = 'Hola, me gustaría recibir más información sobre TreaWork y sus servicios.';
 
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
