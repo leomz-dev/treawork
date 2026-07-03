@@ -4,8 +4,16 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 export default function ContactoFAQ() {
   const faqs = [
     {
-      question: '¿Cómo funciona el servicio?',
-      answer: 'Primero conversamos para entender tu necesidad. Luego evaluamos el caso y te presentamos una propuesta clara con plazos y costos. Si estás de acuerdo, comenzamos a trabajar juntos.',
+      question: '¿Cómo encuentro un tutor?',
+      answer: 'Cuéntanos la materia, el nivel y la modalidad (en la página de Estudiantes tienes un buscador rápido) y te conectamos con el tutor certificado que mejor encaja contigo. La primera conversación es sin compromiso.',
+    },
+    {
+      question: '¿Cómo me hago tutor de TreaWork?',
+      answer: 'Te postulas por WhatsApp, te capacitamos gratis, pasas una evaluación (académica, pedagógica y psicológica) y, al aprobar, te certificamos y publicamos tu perfil. Desde ahí empiezas a recibir estudiantes. Todo el detalle está en la página "Hazte tutor".',
+    },
+    {
+      question: '¿Los tutores están certificados?',
+      answer: 'Sí. Cada tutor pasa por capacitación, evaluación y certificación antes de aparecer en el directorio. Además tienen niveles (Junior, Senior y Mentor) según su experiencia y calificaciones.',
     },
     {
       question: '¿Cuál es el costo de los servicios?',

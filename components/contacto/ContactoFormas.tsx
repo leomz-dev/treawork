@@ -122,9 +122,10 @@ Mensaje: ${formData.mensaje}`;
                         required
                       >
                         <option value="">Selecciona una opción</option>
-                        <option value="Estudiantes">Estudiantes (Clases/Tareas)</option>
-                        <option value="Profesionales">Profesionales (Proyectos)</option>
-                        <option value="Tecnología">Tecnología (Cursos)</option>
+                        <option value="Busco un tutor (Estudiantes)">Busco un tutor (Estudiantes)</option>
+                        <option value="Quiero ser tutor">Quiero ser tutor</option>
+                        <option value="Profesionales (Proyectos)">Profesionales (Proyectos)</option>
+                        <option value="Tecnología (Programación)">Tecnología (Programación)</option>
                         <option value="Otro">Otro</option>
                       </select>
                       <div className="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none">

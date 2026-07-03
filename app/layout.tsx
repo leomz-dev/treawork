@@ -1,13 +1,13 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Montserrat, Inter } from 'next/font/google';
+import { Space_Grotesk, Inter } from 'next/font/google';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import WhatsAppCTA from '@/components/ui-custom/WhatsAppCTA';
 
-const montserrat = Montserrat({
+const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
-  variable: '--font-montserrat',
+  variable: '--font-space-grotesk',
   display: 'swap',
 });
 
@@ -18,11 +18,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'TreaWork | Acompañamiento Académico y Profesional',
-  description: 'Soluciones reales para estudiar, trabajar y avanzar. Clases personalizadas, apoyo en proyectos y asesoría tecnológica.',
+  metadataBase: new URL('https://treawork.vercel.app'),
+  title: 'TreaWork | Jóvenes que enseñan, estudiantes que avanzan',
+  description: 'Conectamos estudiantes con tutores jóvenes certificados. ¿Buscas un tutor o quieres ganar dinero enseñando? TreaWork es tu comunidad.',
   openGraph: {
-    title: 'TreaWork | Acompañamiento Académico y Profesional',
-    description: 'Soluciones reales para estudiar, trabajar y avanzar.',
+    title: 'TreaWork | Jóvenes que enseñan, estudiantes que avanzan',
+    description: 'Conectamos estudiantes con tutores jóvenes certificados.',
     images: [
       {
         url: '/logos/imagotipo_horizontal.png',
@@ -34,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'TreaWork | Acompañamiento Académico y Profesional',
-    description: 'Soluciones reales para estudiar, trabajar y avanzar.',
+    title: 'TreaWork | Jóvenes que enseñan, estudiantes que avanzan',
+    description: 'Conectamos estudiantes con tutores jóvenes certificados.',
     images: [
       {
         url: '/logos/imagotipo_horizontal.png',
@@ -53,10 +54,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es" className={`${montserrat.variable} ${inter.variable}`}>
+    <html lang="es" className={`${spaceGrotesk.variable} ${inter.variable}`}>
       <body className="font-inter text-dark bg-light antialiased">
         <Header />
-        <main>{children}</main>
+        <main className="pt-[4.5rem] lg:pt-20">{children}</main>
         <Footer />
         <WhatsAppCTA />
       </body>
